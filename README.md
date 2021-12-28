@@ -1,11 +1,5 @@
 # PERSONAL-FINANCE-DASHBOARD-FOR-EASY-LIFESTYLE
 
-A project that utilizes Microsoft PowerBI to analyze personal financial data and visualize expenses through an interactive dashboard.
-
-> _"Data analysis is not just about presenting data, but to build a story and create a meaningful narrative from the raw data. At the end of the day, that's what analytics is all about - not about writing code, not about crunching numbers, not about memorizing formula syntax - it's about deriving meaning and context from the data and, more importantly, using it to make real change."_
-> _- Chris Dutton, Maven Analytics_
-
-
 ## Problem Description
 
 As one should, I have been keeping track of all my daily spending using Microsoft Excel. Using basic sorting/filtering in Excel I'm able to see a very high-level overview of my spending. In order to perform data analysis at a more deeper level, we will turn my static Excel data into dynamic PowerBI dashboards.
@@ -28,15 +22,6 @@ Here are the questions I would like the PowerBI dashboards to answer:
 In order to answer these questions, I invested time in planning the PowerBI measures I would need to create and also planned a rough outline of the dashboard visuals I wanted. 
 
 
-## Data Analysis Summary
-
-Here are the dashboards that I created. If you would like to actually play around with these dashboards see the end of this readme for instructions:
-
-![alt text][ExecSumm]
-
-![alt text][Granular]
-
-
 ## Hardware and Software Used
 
 - Python (v3.8)
@@ -44,7 +29,6 @@ Here are the dashboards that I created. If you would like to actually play aroun
 - Windows 10 Machine
 - Microsoft PowerBI Desktop (v2.93)
 - Microsoft Excel
-- Apple iPad (7th Gen) and pencil
 
 
 ## Overview of Microsoft Power BI
@@ -110,17 +94,6 @@ The main visuals I used were 'slicers'. I created calendar slicers for overall d
 
 Using PowerBI I was able to visualize my purchases data in an interactive way. This allowed me to drill deeper into my spending behaviour and with this information I can now be more conscientious of what I choose to spend my money on.
 
-
-## How You Can View My Power BI Dashboards
-
-For those interested in actually playing around with the dashboard, here are some detailed steps to help you do so:
-
-**1. Download PowerBI**
-
-Go to this site: https://powerbi.microsoft.com/en-us/desktop/ and click the "Download Free" button in the center of the screen *(this may change in the future!)*. There may be a prompt that asks you to download from the Microsoft Store instead, in which case simply click the button that opens the Microsoft Store and install the application from there.
-
-*Note: You **DO NOT** have to sign-in to use this 'Desktop' version, although if you choose to then you'll need to use a work/school email adddress.*
-
 **2. Configure Some Settings**
 
 Open Power BI Desktop and simply close the large dialog window that starts. Then, go: File -> Options and settings -> Options. On the left side you'll see two general categories of options: GLOBAL and CURRENT FILE.
@@ -144,16 +117,3 @@ For future improvement, we can consider the following ideas:
   - Would need to ask users to standardize their Excel sheets a certain way?
 - Think of new informative metrics that may be useful.
 - Create new or modify existing dashboards for ease-of-use on mobile/tablet devices. (Can be done in Power BI Desktop)
-
-
-## Acknowledgements
-
-- Creators of Microsoft PowerBI - It's a pretty amazing tool!
-
-
-<!-- Image References -->
-
-[ExecSumm]: images/executive_summary.png "Main summary of data"
-[Granular]: images/granular_info.png "Second dashboard for detailed inormation"
-[DashPlan]: images/dashboard_planning.jpg "My original layout for the dashboards"
-[Questions]: images/investigative_questions.jpg "The original questions I wanted answers to"
