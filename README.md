@@ -146,11 +146,6 @@ For future improvement, we can consider the following ideas:
 - Create new or modify existing dashboards for ease-of-use on mobile/tablet devices. (Can be done in Power BI Desktop)
 
 
-## Author
-
-- **AJ Singh** (https://github.com/aj112358/)
-
-
 ## Acknowledgements
 
 - Creators of Microsoft PowerBI - It's a pretty amazing tool!
