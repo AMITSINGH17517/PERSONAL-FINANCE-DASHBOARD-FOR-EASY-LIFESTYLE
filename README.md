@@ -35,24 +35,7 @@ In order to answer these questions, I invested time in planning the PowerBI meas
 
 Microsoft Power BI is a data analytics tool used to provide business intelligence capabilities, including loading, modelling, and visualizing data sets. Its initial release was over 10 years ago in July 2011, and since then the Microsoft team has continued to add greater functionality and improve ease-of-use on a monthly basis. 
 
-The program itself can be used both on a local machine (via Power BI "Desktop") and also on the cloud (via Power BI "Services"). It can be used in a similar fashion as how one may use Excel, but also provides the greater ability to more easily create interactive visualizations called 'dashboards'. 
-
-
-## Explanation of Project Files
-
-Here is a brief description of each file/folder found in this GitHub repository.
-
-### **Finance_Data/20xx**
-This is the folder that contains each month's Excel data in a separate Excel workbook. The dates (currently) range from Aug 2018 - Dec 2020.
-
-### change_excel_sheets.py
-This Python script takes in an Excel file with multiple sheets and renames all sheets to 'Sheet1'. (*Apparantly this was necessary for importing the Excel data into PowerBI?*)
-
-### Finance_Data.xlsx
-This is a copy of the original Excel file that I was using to keep track of my spending.
-
-### Personal_Finance_Dashboard.pbix
-This is the main Power BI file containing the finance dashboards.
+The program itself can be used both on a local machine (via Power BI "Desktop") and also on the cloud (via Power BI "Services"). It can be used in a similar fashion as how one may use Excel, but also provides the greater ability to more easily create interactive visualizations called 'dashboards'.
 
 
 ## Data Collection Methodology
@@ -102,18 +85,4 @@ Under the GLOBAL options, go to 'Preview features' and de-select all options.
 
 Under the CURRENT FILE options, go to 'Data load' and de-select the two options: (i) Update or delete relationships when refreshing data, and (ii) Autodetect new relationships after data is loaded.
 
-Finally, again under the CURRENT FILE options, go to 'Regional Settings' and make the appropriate selection for your region.
-
-**3. Download My Project Files**
-
-Now that everything is set up, you simply have to download all my project files as they are into a folder on your machine, open the Power BI file (the one with .pbix extension) and have fun!
-
-
-## Future Steps
-
-For future improvement, we can consider the following ideas:
-- Attempt to create more visually appealing dashboards (perhaps you can find a template to use?).
-- Perhaps there is a way to generalize this dashboard so anyone can use it? (Launch via Docker container?)
-  - Would need to ask users to standardize their Excel sheets a certain way?
-- Think of new informative metrics that may be useful.
-- Create new or modify existing dashboards for ease-of-use on mobile/tablet devices. (Can be done in Power BI Desktop) 
+Finally, again under the CURRENT FILE options, go to 'Regional Settings' and make the appropriate selection for your region
