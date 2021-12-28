@@ -149,8 +149,6 @@ For future improvement, we can consider the following ideas:
 ## Acknowledgements
 
 - Creators of Microsoft PowerBI - It's a pretty amazing tool!
-- All the kind and patient cashiers who took the time to print out a receipt for me.
-- Viewers of my GitHub page...Thanks for visiting!
 
 
 <!-- Image References -->
