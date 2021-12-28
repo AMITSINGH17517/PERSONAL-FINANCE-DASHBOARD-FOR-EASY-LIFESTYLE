@@ -116,4 +116,4 @@ For future improvement, we can consider the following ideas:
 - Perhaps there is a way to generalize this dashboard so anyone can use it? (Launch via Docker container?)
   - Would need to ask users to standardize their Excel sheets a certain way?
 - Think of new informative metrics that may be useful.
-- Create new or modify existing dashboards for ease-of-use on mobile/tablet devices. (Can be done in Power BI Desktop)
+- Create new or modify existing dashboards for ease-of-use on mobile/tablet devices. (Can be done in Power BI Desktop) 
