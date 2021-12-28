@@ -2,7 +2,7 @@
 
 ## Problem Description
 
-As one should, I have been keeping track of all my daily spending using Microsoft Excel. Using basic sorting/filtering in Excel I'm able to see a very high-level overview of my spending. In order to perform data analysis at a more deeper level, we will turn my static Excel data into dynamic PowerBI dashboards.
+In This Project, Main Problem Was That How To Save Money From Your Own Costly Expanses For Future Financial Goal ( For Easy Lifestyles ) ? answer : I have Tried To Solve Solution Of Financial Related Problem For Easy Lifestyles Through Power BI Tools.
 
 ## Overview of Microsoft Power BI
 
