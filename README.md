@@ -11,6 +11,7 @@ Microsoft Power BI is a data analytics tool used to provide business intelligenc
 The program itself can be used both on a local machine (via Power BI "Desktop") and also on the cloud (via Power BI "Services"). It can be used in a similar fashion as how one may use Excel, but also provides the greater ability to more easily create interactive visualizations called 'dashboards'.
 
 ## Data Collection Methodology
+![image](https://user-images.githubusercontent.com/86226834/152378800-ef565a2d-f735-4c26-a826-5e3a834b2655.png)
 
 I collected this data by keeping all purchase receipts and inputting the data manually into Excel. The information I kept track of was: Date, Item Category, Price, Location, Comment.
 
