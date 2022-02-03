@@ -25,11 +25,14 @@ There was a lot of work needed to be done with dates. Some dates were of a 'Text
 Finally, only a few rows contained null entries, so I simply chose to remove these rows from the overall dataset; This would not drastically affect the variance of the overall data.
 
 ## Measure Creation & Visualizations
+![image](https://user-images.githubusercontent.com/86226834/152375156-7bfd8bab-585b-41d5-8258-fc65bc79b6d2.png)
   
 The item lookup table contained a single column of each distinct Item category. While working through the project, I realized that every month had a rental payment listed. It didn't make sense to me to have this consistently in each month, so I created a filter that can be used to manually include or exclude rental payments. To accomplish this I needed a second column in the Item Lookup table to represent the 'Rent' item as a Boolean.
   
 The location table contains a single column of each distinct location of purchase.
 
 ## Conclusion
+![image](https://user-images.githubusercontent.com/86226834/152376322-7c3581c3-2a54-48d1-9e1b-bf11f35f6738.png)
+
 
 Using PowerBI I was able to visualize my purchases data in an interactive way. This allowed me to drill deeper into my spending behaviour and with this information I can now be more conscientious of what I choose to spend my money on.
